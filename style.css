@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain{
+    width: 400px;
+}
+
+.times,
+.card-footer,
+.volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i{
+    margin-right: 5px;
+}
+
+li.playing{
+    background-color: rgb(99, 99, 255);
+    color:#fff
+    
+}
+
